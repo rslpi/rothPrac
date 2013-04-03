@@ -1,1 +1,3 @@
 Will the branch work?
+Yes, I think it does work, do:
+git push --all origin
