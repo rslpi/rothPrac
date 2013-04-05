@@ -1,0 +1,113 @@
+Apple ID: 
+This is my apple id for cloud, Xcode:
+
+	luke.immes@rothburysoftware.com / roth21A*
+
+
+password for MACair computer:
+	Luke P. Immes / rothlpi
+
+
+
+https://rothburysoftware.svn.cvsdude.com/diversified/trunk
+
+http://div-dev.rothburysoftware.com/ 
+	limmes / uv12*mn
+   for individual site: harry / harry
+ 	http://div-test1.rothburysoftware.com/page.html?page_0
+
+Get URL of web portal, the following url is NOT working:
+	http://www.diversified.com/test-webportal
+
+
+Skype.app (mac) 
+	rothlpi.bury2 / rb219*k
+
+
+
+Tickets for Front end shown on cloud forge:\
+	https://rothburysoftware.trac.cvsdude.com/foxfrontendsupport/wiki/WikiStart\
+
+
+
+http://jason.pureconcepts.net/2012/10/updating-svn-mac-os-x/
+
+Downloads$ curl -o subversion-latest.tar.gz http://apache.mirrors.tds.net/subversion/subversion-1.7.8.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 8035k  100 8035k    0     0  1400k      0  0:00:05  0:00:05 --:--:-- 1578k
+Downloads$ 
+
+
+neon$ man xcrun
+neon$ xcrun -find gcc
+/Applications/Xcode.app/Contents/Developer/usr/bin/gcc
+
+neon$ /Applications/Xcode.app/Contents/Developer/usr/bin/gcc --version
+i686-apple-darwin11-llvm-gcc-4.2 (GCC) 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Copyright (C) 2007 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+neon$ ./configure 
+ … compiler doesn't work
+
+;; Must install Xcode, and then command line tools. When done then we can:
+
+neon$ which gcc
+/usr/bin/gcc
+
+neon$ ./configure --with-ssl
+… 
+OK
+neon$ make
+...
+neon$ sudo make install
+neon$ cd ..
+~$ ./configure --prefix=/usr/local --with-neon
+~$ make 
+~$ sudo make install
+
+~$ svn --version
+svn, version 1.7.8 (r1419691)
+   compiled Apr  5 2013, 15:12:20
+
+Copyright (C) 2012 The Apache Software Foundation.
+This software consists of contributions made by many people; see the NOTICE
+file for more information.
+Subversion is open source software, see http://subversion.apache.org/
+
+The following repository access (RA) modules are available:
+
+* ra_neon : Module for accessing a repository via WebDAV protocol using Neon.
+  - handles 'http' scheme
+  - handles 'https' scheme
+* ra_svn : Module for accessing a repository using the svn network protocol.
+  - with Cyrus SASL authentication
+  - handles 'svn' scheme
+* ra_local : Module for accessing a repository on local disk.
+  - handles 'file' scheme
+
+~$ git svn clone -s https://rothburysoftware.svn.cvsdude.com/diversified/
+
+
+~$ cd diversified/
+diversified (master)$ git svn fetch
+diversified (master)$ ls
+doc	src
+
+diversified (master)$ git help svn rebase 
+
+… similar to git pull, or 
+	svn update: svn update brings changes from the repository into your working copy. 
+
+diversified (master)$ git svn rebase
+Current branch master is up to date.
+diversified (master)$ ls
+doc	src
+diversified (master)$
+
+;;; Don't use git, use subversion instead, Harry said.
+
+
+
