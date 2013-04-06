@@ -11,6 +11,12 @@ password for MACair computer:
 ;;git hub:
 https://github.com/rslpi
 	luke.immes@rothburysoftware.com /uu*763a
+	
+.bashrc
+	# http://volnitsky.com/project/git-prompt/
+	# http://coderjournal.com/2011/04/gitconfig/
+	# https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
+	[[ $- == *i* ]]   &&   . /Users/lpimmes/git-prompt/git-prompt.sh	
 
 https://rothburysoftware.svn.cvsdude.com/diversified/trunk
 
