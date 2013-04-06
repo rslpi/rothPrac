@@ -8,6 +8,9 @@ password for MACair computer:
 	Luke P. Immes / rothlpi
 
 
+;;git hub:
+https://github.com/rslpi
+	luke.immes@rothburysoftware.com /uu*763a
 
 https://rothburysoftware.svn.cvsdude.com/diversified/trunk
 
